@@ -33,7 +33,8 @@ color: "white";
 footer{
 	display: block;
 	background-color: #97FFC4;
-	height: 20em;
+	height: 5em;
+	margin-top: 20em;
 }
 h1{
 	font-family: "Avenir";
