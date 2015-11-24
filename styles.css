@@ -1,0 +1,144 @@
+html {
+  font-family: sans-serif;
+  /*-webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;*/
+}
+body {
+  margin: 0;
+  font-family: "Avenir";
+  font-style: "heavy";
+  font-weight: lighter;
+  font-size: 1em;
+  background-image: url(http://picwallpaper.com/wp-content/uploads/2015/10/wood-wallpaper-cool-XD10813.jpg);
+  
+
+}
+
+p{
+	font-family: "Avenir";
+	font-weight: lighter;
+	font-size: .3em;
+	z-index: 1000;
+}
+img{
+	opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+header {
+display: block;
+background-color: #97FFC4;
+padding-bottom: 20em;
+color: "white";
+}
+footer{
+	display: block;
+	background-color: #97FFC4;
+	height: 20em;
+}
+h1{
+	font-family: "Avenir";
+	font-size: 3em;
+	font-weight: lighter;
+	color: #737373;
+
+
+}
+h3{
+
+	font-family: "Avenir";
+	font-style: "heavy";
+	font-weight: lighter;
+ 	font-size: 1em;
+}
+
+a{
+	font-family: "Avenir";
+	font-size: 1em;
+	font-weight: lighter;
+	color: #737373;
+	text-decoration: none;
+
+}
+a:hover{
+	color: #97FFC4;
+}
+
+.scroll{
+	overflow: scroll;
+}
+
+.alignleft{
+	margin-left: 0.5em;
+	position: absolute;
+	margin-bottom: 0em;
+	margin-top: -5em;
+
+}
+
+.alignright{
+	margin-left: 20.5em;
+	position: absolute;
+	margin-bottom: -1em;
+	margin-top: -5em;
+
+}
+.margint{
+	margin-top: -8em;
+}
+.padtop{
+	padding-top: .7em;
+}
+
+.container{
+	width: 26em;
+	height: 14em;
+	background-color: #fff;
+	position: absolute;
+	left: 50%;
+	margin-left: -218px;
+	margin-top: -14em;
+	color: #CACACA;
+	background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTQojywxP-6RbGrTetNoXMNouitkJsYL1rn8QqifEkq9G18gKbg);
+
+}
+
+.container2{
+	width: 26em;
+	height: 17em;
+	background-color: #fff;
+	position: absolute;
+	left: 50%;
+	margin-left: -218px;
+	color: #CACACA;
+	background-color: white;
+	overflow: scroll;
+}
+
+.container{
+	width: 26em;
+	height: 14em;
+	background-color: #fff;
+	position: absolute;
+	left: 50%;
+	margin-left: -218px;
+	margin-top: -14em;
+	color: #CACACA;
+}
+
+.circle {
+  background-color: #fff;
+  border: 1px solid #97FFC4;
+  border-radius: 59px;
+  box-shadow: 0 0 2px #888;
+  height: 100px;
+  width: 100px;
+  margin-top: 1em;
+}
+.circlesmall {
+  background-color: #ECEFF4;
+  border: 3px solid #97FFC4;
+  border-radius: 18px;
+  box-shadow: 0 0 2px #888;
+  height: 30px;
+  width: 30px;
+}
