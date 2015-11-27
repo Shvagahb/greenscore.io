@@ -9,7 +9,7 @@ body {
   font-style: "heavy";
   font-weight: lighter;
   font-size: 1em;
-  background-image: url(http://picwallpaper.com/wp-content/uploads/2015/10/wood-wallpaper-cool-XD10813.jpg);
+  background-color: #51D088;
   
 
 }
@@ -27,13 +27,14 @@ img{
 }
 header {
 display: block;
-background-color: #97FFC4;
+background-color: #51D088;
 padding-bottom: 20em;
 color: "white";
 }
+
 footer{
 	display: block;
-	background-color: #97FFC4;
+	background-color: #51D088;
 	height: 5em;
 	margin-top: 20em;
 }
@@ -49,7 +50,7 @@ h2{
 	font-family: "Avenir";
 	font-size: 1em;
 	font-weight: lighter;
-	color: #fff;
+	color: #51D088;
 	letter-spacing: .3em;
 	margin-bottom: -1.4em;
 	margin-top: -.4em;
@@ -61,7 +62,15 @@ h3{
 	font-weight: lighter;
  	font-size: 1em;
 }
-
+h4{
+	font-family: "Avenir";
+	font-size: 3em;
+	font-weight: lighter;
+	color: #fff;
+	letter-spacing: .3em;
+	margin-bottom: -1.4em;
+	margin-top: 1.6em;
+}
 a{
 	font-family: "Avenir";
 	font-size: 1em;
@@ -109,9 +118,9 @@ a:hover{
 	margin-left: -23.5em;
 	margin-top: -14em;
 	color: #CACACA;
-	background-image: url("img/head.png");
+	/*background-image: url("img/head.png");
 	background-position-x: 1em;
-	background-position-y: -17em;  
+	background-position-y: -17em; */ 
 
 }
 
