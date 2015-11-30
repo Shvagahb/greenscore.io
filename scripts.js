@@ -454,6 +454,7 @@ function fillDiv(id) {
 	muniBoxString += "<div class='department' id='department2'>Police Station</div>";
 	muniBoxString += "<div class='department' id='department3'>Office Building</div>";
 	muniBoxString += "<div class='department' id='department4'>Office Building</div>";
+}
 
 	//add overall circles
 	for (circleNum = 1; circleNum <= 4; circleNum++){ 	//id for each circle is "circle1", "circle2", etc
