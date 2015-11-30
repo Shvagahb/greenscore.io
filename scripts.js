@@ -412,7 +412,7 @@ CreateList();
 function CreateList(){
 	var munis=document.getElementById("munilist");
 	for (var i = 1; i < 404; i++) {
-		munis.innerHTML += "<div id='" + munilist[i] + "' class='munihidden'><a id='munilink' href=\"#\">" + munilist[i] + "</a></div>";
+		munis.innerHTML += "<div id='" + munilist[i] + "' class='munihidden'><span id='munilink'>" + munilist[i] + "</span></div>";
 	};
 }
 
@@ -437,9 +437,35 @@ $(".munihidden").click(function(){
 	$("[id='"+id+"']").toggleClass("munihidden");
 	$("[id='"+id+"']").toggleClass("munishown");
 	
-	//need to style the div
-	//maybe call another function to change html of #muni... (insert more elements)
+	if (this.className == "munishown"){
+		fillDiv(id);
+	}
+	else if (this.className == "munihidden"){
+		emptyDiv(id);
+	}
 });
 
-//need to style the div
-//maybe write another function to change html of #muni...
+
+function fillDiv(id) {
+	var circleNum;
+	var circleString 
+	console.log(circleString);
+	var muniBoxString = '';
+
+	muniBoxString += "<div class='muniname'>" + id + "</div>";
+	muniBoxString += "<div class='department' id='department1'>City Hall</div>";
+	muniBoxString += "<div class='department' id='department2'>Police Station</div>";
+	muniBoxString += "<div class='department' id='department3'>Boring Office Building</div>";
+
+	//add overall circles
+	for (circleNum = 1; circleNum <= 4; circleNum++){ 	//id for each circle is "circle1", "circle2", etc
+		circleString = "<div class='circle' id='cirle" + circleNum + "'><div class='score' id='score" + circleNum + "'>86</div><embed src='circle.svg' height='100%'></div></div>";
+		muniBoxString += circleString;
+	}
+
+	$("[id='"+id+"']").html(muniBoxString);
+}
+
+function emptyDiv(id) {
+	$("[id='"+id+"']").html("<span id='munilink'>" + id + "</span>");
+}

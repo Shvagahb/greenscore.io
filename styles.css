@@ -111,7 +111,6 @@ a:hover{
 
 .container{
 	width: 47em;
-	height: 14em;
 	background-color: #fff;
 	position: absolute;
 	left: 50%;
@@ -131,9 +130,10 @@ a:hover{
 	position: absolute;
 	left: 50%;
 	margin-left: -23.5em;
-	color: #CACACA;
+	color: #303030;
 	background-color: white;
-	overflow: scroll;
+	overflow-y: scroll;
+	overflow-x: hidden;
 }
 
 .container3{
@@ -148,14 +148,30 @@ a:hover{
 }
 
 .circle {
-  background-color: #fff;
-  border: 1px solid #97FFC4;
-  border-radius: 59px;
-  box-shadow: 0 0 2px #888;
-  height: 100px;
-  width: 100px;
-  margin-top: 1em;
+	height: 1em;
+	width: 1em;
 }
+
+.score {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+#mainscore {
+	font-size: 1.3em;
+}
+
+#maincircle {
+	height: 100px;
+	width: 100px;
+	margin-top: 1em;
+}
+
 .circlesmall {
   background-color: #ECEFF4;
   border: 3px solid #97FFC4;
@@ -165,16 +181,30 @@ a:hover{
   width: 30px;
 }
 
+#munilink:hover {
+	color: #97FFC4;
+	cursor: pointer;
+}
+
 .munihidden {
-	width: 30%;
 	text-align: left;
 	height: 2em;
+	width: 60%;
+	margin-right: 20%;
+	margin-left: 20%;
 }
 
 .munishown {
-	height: 4em;
-	width: 80%;
-	background-color: blue;
+	/*height: 4em;*/
+	width: 60%;
+	margin-right: 20%;
+	margin-left: 20%;
+	background-color: #f0f0f0;
+/*	background-image: url(./img/city.jpg);
+	background-size: cover;*/
 	text-align: left;
-	margin: 5px;
+}
+
+.muniscore {
+	height: 2em;
 }
