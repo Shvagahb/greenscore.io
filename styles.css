@@ -63,6 +63,8 @@ h3{
 	font-style: "heavy";
 	font-weight: lighter;
  	font-size: 1em;
+ 	color: #ADBDBA;
+    letter-spacing: .2em;
 }
 h4{
 	font-family: "Avenir";
@@ -129,7 +131,7 @@ a:hover{
 	color: #CACACA;
 	background-image: url("img/flok.jpg");
 /*	background-position-x: 1em;*/
-	background-position-y: -28em; 
+	background-position-y: -30em; 
 
 }
 
@@ -260,4 +262,8 @@ color: white;
 }
 #circle4{
 	
+}
+.spacecool{
+	color: #ADBDBA;
+    letter-spacing: .2em;
 }

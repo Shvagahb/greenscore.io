@@ -412,7 +412,7 @@ CreateList();
 function CreateList(){
 	var munis=document.getElementById("munilist");
 	for (var i = 1; i < 404; i++) {
-		munis.innerHTML += "<div id='" + munilist[i] + "' class='munihidden'><span id='munilink'>" + munilist[i] + "</span></div>";
+		munis.innerHTML += "<div id='" + munilist[i] + "' class='munihidden' class=\"spacecool\"><span id='munilink'>" + munilist[i] + "</span></div>";
 	};
 }
 
