@@ -28,8 +28,8 @@ img{
 header {
 display: block;
 background-color: #51D088;
-padding-bottom: 25em;
-margin-top: -9em;
+padding-bottom: 35em;
+margin-top: -19em;
 color: "white";
 }
 
@@ -55,6 +55,7 @@ h2{
 	letter-spacing: .3em;
 	margin-bottom: -1.4em;
 	margin-top: -.4em;
+	text-transform: uppercase;
 }
 h3{
 

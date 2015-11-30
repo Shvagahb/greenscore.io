@@ -416,16 +416,6 @@ function CreateList(){
 	};
 }
 
-// //Canvas
-// var canvas = document.getElementById("score-canvas1");
-// var ctx = canvas.getContext("2d");
-// ctx.beginPath();
-// ctx.arc(90,90,20,Math.PI*3/2,Math.PI);
-// ctx.strokeStyle="#FFFFFF";
-// ctx.lineWidth=5;
-// ctx.stroke();
-
-
 //Open Municipality Panel
 //Must get individual id
 $(".munihidden").click(function(){
@@ -436,6 +426,7 @@ $(".munihidden").click(function(){
 	//toggle hidden and shown
 	$("[id='"+id+"']").toggleClass("munihidden");
 	$("[id='"+id+"']").toggleClass("munishown");
+	$("#mainmuni").html(id);
 	
 	if (this.className == "munishown"){
 		fillDiv(id);
@@ -448,18 +439,18 @@ $(".munihidden").click(function(){
 
 function fillDiv(id) {
 	var circleNum;
-	var circleString 
-	console.log(circleString);
+	var circleString;
 	var muniBoxString = '';
 
 	muniBoxString += "<div class='muniname'>" + id + "</div>";
-	muniBoxString += "<div class='department' id='department1'>City Hall</div>";
-	muniBoxString += "<div class='department' id='department2'>Police Station</div>";
-	muniBoxString += "<div class='department' id='department3'>Boring Office Building</div>";
+	muniBoxString += "<div class='department' id='department1'>City Hall</div><div class='icon' id='icon1'><img src='./img/cityhall.jpg'></div>";
+	muniBoxString += "<div class='department' id='department2'>Police Station</div><div class='icon' id='icon2'><img src='./img/badge.jpg'></div>";
+	muniBoxString += "<div class='department' id='department3'>Boring Office Building</div><div class='icon' id='icon3'><img src='./img/office.jpg'></div>";
+	muniBoxString += "<div class='department' id='department4'>Oh No There's a Fire</div><div class='icon' id='icon4'><img src='./img/hydrant.jpg'></div>";
 
 	//add overall circles
-	for (circleNum = 1; circleNum <= 4; circleNum++){ 	//id for each circle is "circle1", "circle2", etc
-		circleString = "<div class='circle' id='cirle" + circleNum + "'><div class='score' id='score" + circleNum + "'>86</div><embed src='circle.svg' height='100%'></div></div>";
+	for (circleNum = 1; circleNum <= 5; circleNum++){ 	//id for each circle is "circle1", "circle2", etc
+		circleString = "<div class='circle' id='circle" + circleNum + "'><div class='score' id='score" + circleNum + "'>86</div><embed src='circle.svg' height='100%'></div></div>";
 		muniBoxString += circleString;
 	}
 
