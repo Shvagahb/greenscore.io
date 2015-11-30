@@ -448,13 +448,6 @@ function fillDiv(id) {
 	muniBoxString += "<div class='department' id='department3'>Boring Office Building</div><div class='icon' id='icon3'><img src='./img/office.jpg'></div>";
 	muniBoxString += "<div class='department' id='department4'>Oh No There's a Fire</div><div class='icon' id='icon4'><img src='./img/hydrant.jpg'></div>";
 
-	//add overall circles
-	for (circleNum = 1; circleNum <= 5; circleNum++){ 	//id for each circle is "circle1", "circle2", etc
-	muniBoxString += "<div class='department' id='department1'>City Hall</div>";
-	muniBoxString += "<div class='department' id='department2'>Police Station</div>";
-	muniBoxString += "<div class='department' id='department3'>Office Building</div>";
-	muniBoxString += "<div class='department' id='department4'>Office Building</div>";
-}
 
 	//add overall circles
 	for (circleNum = 1; circleNum <= 4; circleNum++){ 	//id for each circle is "circle1", "circle2", etc
