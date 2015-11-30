@@ -9,7 +9,7 @@ body {
   font-style: "heavy";
   font-weight: lighter;
   font-size: 1em;
-  background-color: #51D088;
+  background-color: rgba(216, 216, 216, 0.3)
   
 
 }
@@ -28,13 +28,14 @@ img{
 header {
 display: block;
 background-color: #51D088;
-padding-bottom: 20em;
+padding-bottom: 25em;
+margin-top: -9em;
 color: "white";
 }
 
 footer{
 	display: block;
-	background-color: #51D088;
+	background-color: rgba(216, 216, 216, 0.3);
 	height: 5em;
 	margin-top: 20em;
 }
@@ -71,18 +72,22 @@ h4{
 	margin-bottom: -1.4em;
 	margin-top: 1.6em;
 }
+h5{
+	color: #51D088;
+}
 a{
 	font-family: "Avenir";
 	font-size: 1em;
+	letter-spacing: .3em;
 	font-weight: lighter;
-	color: #737373;
+	color: rgba(115, 115, 115, 0.53);
 	text-decoration: none;
 
 }
 a:hover{
-	color: #97FFC4;
+	color: #51D088;
 }
-
+}
 .scroll{
 	overflow: scroll;
 }
@@ -94,7 +99,10 @@ a:hover{
 	margin-top: -5em;
 
 }
+.fafa{
+	font-size: xx-large;
 
+}
 .alignright{
 	margin-left: 20.5em;
 	position: absolute;
@@ -117,9 +125,9 @@ a:hover{
 	margin-left: -23.5em;
 	margin-top: -14em;
 	color: #CACACA;
-	/*background-image: url("img/head.png");
-	background-position-x: 1em;
-	background-position-y: -17em; */ 
+	background-image: url("img/flok.jpg");
+/*	background-position-x: 1em;*/
+	background-position-y: -28em; 
 
 }
 
@@ -208,3 +216,4 @@ a:hover{
 .muniscore {
 	height: 2em;
 }
+
