@@ -450,6 +450,13 @@ function fillDiv(id) {
 
 	//add overall circles
 	for (circleNum = 1; circleNum <= 5; circleNum++){ 	//id for each circle is "circle1", "circle2", etc
+	muniBoxString += "<div class='department' id='department1'>City Hall</div>";
+	muniBoxString += "<div class='department' id='department2'>Police Station</div>";
+	muniBoxString += "<div class='department' id='department3'>Office Building</div>";
+	muniBoxString += "<div class='department' id='department4'>Office Building</div>";
+
+	//add overall circles
+	for (circleNum = 1; circleNum <= 4; circleNum++){ 	//id for each circle is "circle1", "circle2", etc
 		circleString = "<div class='circle' id='circle" + circleNum + "'><div class='score' id='score" + circleNum + "'>86</div><embed src='circle.svg' height='100%'></div></div>";
 		muniBoxString += circleString;
 	}
