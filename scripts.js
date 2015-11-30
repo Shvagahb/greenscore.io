@@ -406,13 +406,15 @@ munilist[401]="Yankeetown";
 munilist[402]="Zephyrhills";
 munilist[403]="Zolfo Springs";
 
+CreateList();
 
-var munis=document.getElementById("munilist");
-console.log(munilist);
-console.log(munis);
-for (var i = 1; i < 404; i++) {
-	munis.innerHTML += "<a href=\"#\">" + munilist[i] + "</a><br>";
-};
+//Display List of Municipalities
+function CreateList(){
+	var munis=document.getElementById("munilist");
+	for (var i = 1; i < 404; i++) {
+		munis.innerHTML += "<div id='" + munilist[i] + "' class='munihidden'><a id='munilink' href=\"#\">" + munilist[i] + "</a></div>";
+	};
+}
 
 // //Canvas
 // var canvas = document.getElementById("score-canvas1");
@@ -422,3 +424,22 @@ for (var i = 1; i < 404; i++) {
 // ctx.strokeStyle="#FFFFFF";
 // ctx.lineWidth=5;
 // ctx.stroke();
+
+
+//Open Municipality Panel
+//Must get individual id
+$(".munihidden").click(function(){
+
+	//grab id
+	var id = this.id;
+
+	//toggle hidden and shown
+	$("[id='"+id+"']").toggleClass("munihidden");
+	$("[id='"+id+"']").toggleClass("munishown");
+	
+	//need to style the div
+	//maybe call another function to change html of #muni... (insert more elements)
+});
+
+//need to style the div
+//maybe write another function to change html of #muni...
