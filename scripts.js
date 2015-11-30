@@ -443,10 +443,10 @@ function fillDiv(id) {
 	var muniBoxString = '';
 
 	muniBoxString += "<div class='muniname'>" + id + "</div>";
-	muniBoxString += "<div class='department' id='department1'>City Hall</div><div class='icon' id='icon1'><img src='./img/cityhall.jpg'></div>";
-	muniBoxString += "<div class='department' id='department2'>Police Station</div><div class='icon' id='icon2'><img src='./img/badge.jpg'></div>";
-	muniBoxString += "<div class='department' id='department3'>Boring Office Building</div><div class='icon' id='icon3'><img src='./img/office.jpg'></div>";
-	muniBoxString += "<div class='department' id='department4'>Oh No There's a Fire</div><div class='icon' id='icon4'><img src='./img/hydrant.jpg'></div>";
+	muniBoxString += "<div class='icon' id='icon1'><img src='./img/cityhall.jpg'></div>";
+	muniBoxString += "<div class='icon' id='icon2'><img src='./img/badge.jpg'></div>";
+	muniBoxString += "<div class='icon' id='icon3'><img src='./img/office.jpg'></div>";
+	muniBoxString += "<div class='icon' id='icon4'><img src='./img/hydrant.jpg'></div>";
 
 
 	//add overall circles
