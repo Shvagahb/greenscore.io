@@ -121,17 +121,17 @@ a:hover{
 }
 
 .container{
-	width: 58.4%;
-	height: 14em;
-	background-color: #fff;
-	position: absolute;
-	margin-left: 20.8%;
-	margin-top: -14em;
-	color: #CACACA;
-	background-image: url(./img/florida-skyline-01.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: bottom;
+    width: 58.4%;
+    height: 33%;
+    background-color: #fff;
+    position: absolute;
+    top: 18%;
+    margin-left: 20.8%;
+    color: #CACACA;
+    background-image: url(./img/florida-skyline-01.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .container2{
