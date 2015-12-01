@@ -426,16 +426,18 @@ $(".munihidden").click(function(){
 	//toggle hidden and shown
 	$("[id='"+id+"']").toggleClass("munihidden");
 	$("[id='"+id+"']").toggleClass("munishown");
-	$("#mainmuni").html(id);
+
+	$("#maincircle").html('<div class="score" id="mainscore">86</div><div><embed src="circle.svg" height="100%"></div>')
 	
 	if (this.className == "munishown"){
+		$("#mainmuni").html(id);
 		fillDiv(id);
 	}
 	else if (this.className == "munihidden"){
+		$("#mainmuni").html("TALLANASTY");
 		emptyDiv(id);
 	}
 });
-
 
 function fillDiv(id) {
 	var circleNum;
@@ -443,14 +445,13 @@ function fillDiv(id) {
 	var muniBoxString = '';
 
 	muniBoxString += "<div class='muniname'>" + id + "</div>";
-	muniBoxString += "<div class='icon' id='icon1'><img src='./img/cityhall.jpg'></div>";
-	muniBoxString += "<div class='icon' id='icon2'><img src='./img/badge.jpg'></div>";
-	muniBoxString += "<div class='icon' id='icon3'><img src='./img/office.jpg'></div>";
-	muniBoxString += "<div class='icon' id='icon4'><img src='./img/hydrant.jpg'></div>";
-
+	muniBoxString += "<div class='icon' id='icon1'><img style='width:100%' src='./img/cityhall.jpg'></div>";
+	muniBoxString += "<div class='icon' id='icon2'><img style='width:100%' src='./img/badge.jpg'></div>";
+	muniBoxString += "<div class='icon' id='icon3'><img style='width:100%' src='./img/office.jpg'></div>";
+	muniBoxString += "<div class='icon' id='icon4'><img style='width:100%' src='./img/hydrant.jpg'></div>";
 
 	//add overall circles
-	for (circleNum = 1; circleNum <= 4; circleNum++){ 	//id for each circle is "circle1", "circle2", etc
+	for (circleNum = 1; circleNum <= 5; circleNum++){ 	//id for each circle is "circle1", "circle2", etc
 		circleString = "<div class='circle' id='circle" + circleNum + "'><div class='score' id='score" + circleNum + "'>86</div><embed src='circle.svg' height='100%'></div></div>";
 		muniBoxString += circleString;
 	}
@@ -461,3 +462,13 @@ function fillDiv(id) {
 function emptyDiv(id) {
 	$("[id='"+id+"']").html("<span id='munilink'>" + id + "</span>");
 }
+
+// window.onload = function(){
+// 	city = document.getElementsByClassName('city');
+// 	for (var i = 0; i < city.length; i++) {
+// 		circle = city[i].getElementsByClassName('circle');
+// 		for (var j = 0; j < city[i].circle.length; j++) {
+// 			d = city[i].circle[j].getAttribute('d');
+// 		};
+// 	};
+// }
