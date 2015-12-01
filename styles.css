@@ -224,7 +224,7 @@ a:hover{
 }
 
 #icon2 {
-	margin-left: 50%;
+	margin-left: 45%;
 }
 
 #icon3 {
@@ -233,7 +233,7 @@ a:hover{
 
 #icon4 {
 	margin-top: 7.5em;
-	margin-left: 50%;
+	margin-left: 45%;
 }
 
 .newscore {
@@ -267,7 +267,7 @@ a:hover{
 }
 
 #circle1 {
-	
+	margin-left: 5%;
 }
 
 #circle2 {
@@ -276,6 +276,7 @@ a:hover{
 
 #circle3 {
 	margin-top: 7.5em;
+	margin-left: 5%;
 }
 
 #circle4 {
