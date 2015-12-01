@@ -24,6 +24,7 @@ p{
 img{
 	opacity: 0.4;
     filter: alpha(opacity=40);
+        width: 4em;
 }
 header {
 display: block;
@@ -267,6 +268,22 @@ a:hover{
     letter-spacing: .2em;
 }
 
+.icon{
+	    width: 4em;
+}
+#icon1{
+    width: 4em;
+}
+#icon2{
+	 width: 4em;
+}
+#icon3{
+	width: 4em;
+}
+#icon4{
+	width: 4em;}
+
+
 @media (max-width: 780px){
 	.container{
 		width: 78.4%;
@@ -299,4 +316,5 @@ a:hover{
 		position: absolute;
 		margin-left: 5.8%;
 	}
+
 }
