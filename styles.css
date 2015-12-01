@@ -27,11 +27,11 @@ img{
         width: 4em;
 }
 header {
-display: block;
-background-color: #51D088;
-padding-bottom: 35em;
-margin-top: -19em;
-color: "white";
+    display: block;
+    background-color: #51D088;
+    padding-bottom: 57%;
+    margin-top: -32%;
+	color: "white";
 }
 
 footer{
@@ -69,12 +69,12 @@ h3{
 }
 h4{
 	font-family: "Avenir";
-	font-size: 3em;
-	font-weight: lighter;
-	color: #fff;
-	letter-spacing: .3em;
-	margin-bottom: -1.4em;
-	margin-top: 1.6em;
+    font-size: 3em;
+    font-weight: lighter;
+    color: #fff;
+    letter-spacing: .3em;
+    margin-bottom: -0.4em;
+    margin-top: 3%;
 }
 h5{
 	color: #51D088;
@@ -164,9 +164,9 @@ a:hover{
 }
 
 #maincircle {
-	height: 100px;
-	width: 100px;
-	margin-top: 1em;
+    height: 100px;
+    width: 100px;
+    margin-top: 2.5%;
 }
 
 #munilink:hover {
