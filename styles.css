@@ -175,8 +175,13 @@ a:hover{
 	color: #97FFC4;
 	cursor: pointer;
 }
+
 #munilink:active {
     color: #97FFC4;
+}
+
+#munilink {
+	margin-left: 20%;
 }
 
 .munihidden {
@@ -188,9 +193,11 @@ a:hover{
 }
 
 .munishown {
-	width: 60%;
-	margin-right: 20%;
-	margin-left: 20%;
+	height: 10em;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 1em;
 	background-image: url(./img/cityskylinefl.jpg);
 	background-size: cover;
 	text-align: left;
@@ -200,25 +207,86 @@ a:hover{
 	height: 2em;
 }
 
+.muniname {
+	margin-left: 22%;
+	position: absolute;
+}
+
 .icon {
-	position: relative;
+	position: absolute;
+	margin-top: 5em;
 	height: 2em;
 	width: 2em;
 }
 
 #icon1 {
-	margin-left: 50%;
+	
 }
 
 #icon2 {
+	margin-left: 50%;
 }
 
 #icon3 {
+	margin-top: 7.5em;
 }
 
 #icon4 {
+	margin-top: 7.5em;
+	margin-left: 50%;
 }
 
+.newscore {
+	position: absolute;
+	left: 50%;
+	top: 65%;
+	-webkit-transform: translate(-50%, -90%);
+	-moz-transform: translate(-50%, -90%);
+	-o-transform: translate(-50%, -90%);
+	transform: translate(-50%, -90%);
+}
+
+#score0 {
+	font-size: 2em;
+}
+
+.circle {
+	position: absolute;
+	margin-top: 5em;
+	height: 2em;
+	width: 2em;
+	color: #51D088;
+}
+
+#circle0 {
+	margin-top: 0;
+	margin-left: 1em;
+	height: 5em;
+	width: 5em;
+	font-size: 1em;
+}
+
+#circle1 {
+	
+}
+
+#circle2 {
+	margin-left: 50%;
+}
+
+#circle3 {
+	margin-top: 7.5em;
+}
+
+#circle4 {
+	margin-top: 7.5em;
+	margin-left: 50%;
+}
+
+.spacecool{
+	color: #ADBDBA;
+    letter-spacing: .2em;
+}
 /*.department {
 	color: white;
 }
@@ -240,50 +308,6 @@ a:hover{
 	margin-left: 20em;
 	margin-top: -1.4em;
 }*/
-
-.circle {
-	position: relative;
-	height: 2em;
-	width: 2em;
-}
-
-#circle1 {
-
-}
-
-#circle2 {
-	
-}
-
-#circle3 {
-	
-}
-
-#circle4 {
-	
-}
-
-.spacecool{
-	color: #ADBDBA;
-    letter-spacing: .2em;
-}
-
-.icon{
-	    width: 4em;
-}
-#icon1{
-    width: 4em;
-}
-#icon2{
-	 width: 4em;
-}
-#icon3{
-	width: 4em;
-}
-#icon4{
-	width: 4em;}
-
-
 @media (max-width: 780px){
 	.container{
 		width: 78.4%;

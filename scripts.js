@@ -451,8 +451,8 @@ function fillDiv(id) {
 	muniBoxString += "<div class='icon' id='icon4'><img style='width:100%' src='./img/hydrant.jpg'></div>";
 
 	//add overall circles
-	for (circleNum = 1; circleNum <= 5; circleNum++){ 	//id for each circle is "circle1", "circle2", etc
-		circleString = "<div class='circle' id='circle" + circleNum + "'><div class='score' id='score" + circleNum + "'>86</div><embed src='circle.svg' height='100%'></div></div>";
+	for (circleNum = 0; circleNum < 5; circleNum++){ 	//id for each circle is "circle0", "circle1", etc
+		circleString = "<div class='circle' id='circle" + circleNum + "'><div class='newscore' id='score" + circleNum + "'>86</div><embed src='circle.svg' height='100%'></div></div>";
 		muniBoxString += circleString;
 	}
 
