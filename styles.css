@@ -122,56 +122,39 @@ a:hover{
 }
 
 .container{
-	width: 47em;
+	width: 58.4%;
+	height: 14em;
 	background-color: #fff;
 	position: absolute;
-	left: 50%;
-	margin-left: -23.5em;
+	margin-left: 20.8%;
 	margin-top: -14em;
 	color: #CACACA;
 	background-image: url("img/flok.jpg");
-/*	background-position-x: 1em;*/
-	background-position-y: -30em; 
-
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom;
 }
 
 .container2{
-	width: 47em;
+	width: 58.4%;
 	height: 17em;
 	background-color: #fff;
 	position: absolute;
-	left: 50%;
-	margin-left: -23.5em;
+	margin-left: 20.8%;
 	color: #303030;
 	background-color: white;
 	overflow-y: scroll;
 	overflow-x: hidden;
 }
 
-.container3{
-	width: 47em;
-	height: 14em;
-	background-color: #fff;
-	position: absolute;
-	left: 50%;
-	margin-left: -23.5em;
-	margin-top: -14em;
-	color: #CACACA;
-}
-
-.circle {
-	height: 2em;
-	width: 1em;
-}
-
 .score {
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	-moz-transform: translate(-50%, -50%);
-	-o-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -90%);
+	-moz-transform: translate(-50%, -90%);
+	-o-transform: translate(-50%, -90%);
+	transform: translate(-50%, -90%);
 }
 
 #mainscore {
@@ -185,15 +168,6 @@ a:hover{
 	height: 100px;
 	width: 100px;
 	margin-top: 1em;
-}
-
-.circlesmall {
-  background-color: #ECEFF4;
-  border: 3px solid #97FFC4;
-  border-radius: 18px;
-  box-shadow: 0 0 2px #888;
-  height: 30px;
-  width: 30px;
 }
 
 #munilink:hover {
@@ -213,11 +187,9 @@ a:hover{
 }
 
 .munishown {
-	/*height: 4em;*/
 	width: 60%;
 	margin-right: 20%;
 	margin-left: 20%;
-/*	background-color: #f0f0f0;*/
 	background-image: url(./img/cityskylinefl.jpg);
 	background-size: cover;
 	text-align: left;
@@ -226,44 +198,105 @@ a:hover{
 .muniscore {
 	height: 2em;
 }
-.department{
-color: white;
+
+.icon {
+	position: relative;
+	height: 2em;
+	width: 2em;
+}
+
+#icon1 {
+	margin-left: 50%;
+}
+
+#icon2 {
+}
+
+#icon3 {
+}
+
+#icon4 {
+}
+
+/*.department {
+	color: white;
+}
+
+#department1 {
 
 }
-#department1{
 
-}
-#department2{
+#department2 {
 	margin-left: 20em;
     margin-top: -1.3em;
 }
 
-#department3{
+#department3 {
     margin-top: 2em;
 }
-#department4{
+
+#department4 {
 	margin-left: 20em;
 	margin-top: -1.4em;
+}*/
+
+.circle {
+	position: relative;
+	height: 2em;
+	width: 2em;
 }
 
-.circle{
+#circle1 {
 
 }
-#circle1{
-    margin-top: -4.3em;
-    margin-left: 1em;
-}
-#circle2{
-	margin-left: 22em;
-    margin-top: -.9em;
-}
-#circle3{
+
+#circle2 {
 	
 }
-#circle4{
+
+#circle3 {
 	
 }
+
+#circle4 {
+	
+}
+
 .spacecool{
 	color: #ADBDBA;
     letter-spacing: .2em;
+}
+
+@media (max-width: 780px){
+	.container{
+		width: 78.4%;
+		height: 14em;
+		background-color: #fff;
+		position: absolute;
+		margin-left: 10.8%;
+	}
+	.container2 {
+		width: 78.4%;
+		height: 14em;
+		background-color: #fff;
+		position: absolute;
+		margin-left: 10.8%;
+	}
+}
+
+@media (max-width: 525px){
+	.container{
+		width: 88.4%;
+		height: 14em;
+		background-color: #fff;
+		position: absolute;
+		margin-left: 5.8%;
+	}
+	.container2 {
+		width: 88.4%;
+		height: 14em;
+		background-color: #fff;
+		position: absolute;
+		margin-left: 5.8%;
+	}
 }

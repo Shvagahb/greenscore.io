@@ -3,7 +3,7 @@
 	<embed src="circle.svg" width="100%" height="100%">
 </object> -->
 
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="40 40 120 120">
+<svg class='svg' version="1.1" xmlns="http://www.w3.org/2000/svg" data-percent="45" viewBox="40 40 120 120">
 	<circle cx="100" cy="100" r="50" stroke="#f0f0f0" fill="transparent" stroke-width="2"/>
 	<path class="colorcircle" id="circle"/>
 
@@ -19,7 +19,7 @@
 	<script type="text/javascript">
 
 	<![CDATA[
-
+		
 		var centerAngle;
 		var angleRadians;
 		var X = [];
@@ -73,6 +73,8 @@
 		}
 
 	]]>
+
+
 
 	</script>
 </svg>
