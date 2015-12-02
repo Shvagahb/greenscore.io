@@ -434,7 +434,7 @@ $(".munihidden").click(function(){
 		fillDiv(id);
 	}
 	else if (this.className == "munihidden"){
-		$("#mainmuni").html("TALLANASTY");
+		$("#mainmuni").html("TALLAHASSEE");
 		emptyDiv(id);
 	}
 });
