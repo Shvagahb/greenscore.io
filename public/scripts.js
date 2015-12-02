@@ -472,3 +472,29 @@ function emptyDiv(id) {
 // 		};
 // 	};
 // }
+ 
+var container = document.getElementById("container");
+var container2 = document.getElementById("container2");
+var maincircle = document.getElementById("maincircle");
+
+//set header width
+function headersize() {
+	var docWidth = $(window).width();
+	  
+	if (docWidth < 800) {
+		container.style.width = "80%";
+		container.style.marginLeft = "10%";
+		container2.style.width = "80%";
+		container2.style.marginLeft = "10%";
+		maincircle.style.width = "12%";
+		maincircle.style.marginLeft = "-6%";
+		maincircle.style.marginTop = "-6%";
+	}
+}
+
+headersize();
+
+//set header to width of window on resize
+window.resize = function(event) {
+  headersize();
+}
