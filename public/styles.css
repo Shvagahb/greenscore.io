@@ -321,11 +321,16 @@ a:hover{
 }*/
 @media (max-width: 800px) {
 	.container {
-		width: 80%;
-		margin-left: 10%;
+		width: 80% !important;
+		margin-left: 10% !important;
 	}
 	.container2 {
-		width: 80%;
-		margin-left: 10%;
+		width: 80% !important;
+		margin-left: 10% !important;
+	}
+	#maincircle {
+		margin-left: -6%;
+	    margin-top: -7.5%;
+	    width: 12%;
 	}
 }
